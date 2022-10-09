@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <footer>
+        
+            <div class="left_menu">
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Platform</a></li>
+                    <li><a href="#">English</a></li>
+                </ul>
+            </div>
+            <div class="terms">
+                <p>Copyright © 1998-2022 WeChat. All Rights Reserved.</p>
+            </div>
+            <div class="right_menu">
+                <ul>
+                    <li><a href="#">Term of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Acceptable Use Policy</a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="log">
+                <img src="/logo/facebook.png" alt="">
+                <img src="/logo/twitter.png" alt="">
+            </div>
+        </footer>
+        <div class="container">
+            <div class="main_image">
+                <img src="/image/phone.png" alt="">
+            </div>
+            <div class="contains">
+                <img class="we_img" src="/logo/wechat.png" alt="">
+                <br>
+                <img class="text_img" src="/image/text.png" alt="">
+                <br>
+                <img class="store" onclick="iosApp()" src="/image/ios.png" alt="">
+                <img class="store" onclick="androidApp()" src="/image/android.png" alt="">
+                <br>
+                <img class="machine" src="/logo/windows.png" alt="">
+                <img class="machine" src="/logo/macos.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script>
+        function iosApp(){
+            window.location.href = "https://apps.apple.com/us/app/wechat/id414478124";
+        }
+        function androidApp(){
+            window.location.href = "https://play.google.com/store/apps/details?id=com.tencent.mm&referrer=utm_source%3Dwechat.com%26utm_medium%3Ddesktop"
+        }
+    </script>
+</body>
+</html>

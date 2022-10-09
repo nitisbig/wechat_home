@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.main{
+    background: url(/image/background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_image img{
+    width: 380px;
+    height: 770px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+}
+.contains{
+    padding: 60px 0px;
+}
+.contains .text_img{
+    height: 200px;
+    width: 1000px;
+}
+.contains .we_img{
+    height: 120px;
+    width: 130px;
+    position: relative;
+    left: 400px;
+}
+.contains .store{
+    padding: 4px;
+    height: 60px;
+    width: 200px;
+    position: relative;
+    left: 300px;
+    cursor: pointer;
+}
+.contains .store:hover{
+    border: 1px solid rgb(236, 148, 148);
+}
+.contains .machine{
+    position: relative;
+    left: 450px;
+    padding: 20px 0px;
+}
+footer{
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    justify-content: space-around;
+    padding-bottom:30px;
+}
+.left_menu ul{
+    display: flex;
+    list-style: none;
+}
+.left_menu ul li a{
+    text-decoration: none;
+    padding-right: 44px;
+    font-size: 20px;
+    color: white;
+}
+.terms{
+    font-size: 20px;
+    color: white;
+}
+.right_menu ul{
+    display: flex;
+    list-style: none;
+}
+.right_menu ul li a{
+    text-decoration: none;
+    padding-right: 44px;
+    font-size: 20px;
+    color: white;
+}
+.logo{
+    padding-left: 44px;
+}
